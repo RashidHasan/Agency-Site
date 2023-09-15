@@ -493,6 +493,17 @@ header nav .form i {
     }
 }
 
+@media (min-width: 375px) {
+    .landing .text {
+        height: 65%;
+        width: 100%;
+    }
+
+    .landing .text .content p {
+        font-size: 10px;
+    }
+}
+
 
 /* End Landing */
 
