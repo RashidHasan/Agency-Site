@@ -153,7 +153,7 @@ ul {
     }
 
     .quote .container p {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -181,34 +181,32 @@ ul {
 }
 
 .main-heading h2::before {
-    content: '';
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     height: 2px;
-    background-color: black;
+    background-color: #333;
     bottom: -30px;
     width: 120px;
 }
 
 .main-heading h2::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    border: 2px solid var(--main-color);
+    border: 2px solid #333;
     bottom: -38px;
     background-color: white;
 }
 
 .main-heading p {
-    content: '';
     width: 550px;
-    margin: 0 auto 80px;
+    margin: 0 auto 100px;
     max-width: 100%;
     line-height: 2;
     color: #777;
@@ -372,10 +370,11 @@ header nav .form i {
 
 /* Start Landing */
 
+/* Start Landing */
 .landing {
     min-height: 100vh;
     background-color: #1f2021;
-    background-image: url(../Images/daniel-leone-v7daTKlZzaw-unsplash.jpg);
+    background-image: url("../Images/daniel-leone-v7daTKlZzaw-unsplash.jpg");
     background-size: cover;
     position: relative;
 }
@@ -388,13 +387,6 @@ header nav .form i {
     height: 100%;
     background-color: rgb(0 0 0 / 60%);
 }
-
-@media (min-width: 768px) {
-    .landing .overlay {
-        display: none;
-    }
-}
-
 
 .landing .text {
     position: absolute;
@@ -410,9 +402,8 @@ header nav .form i {
 }
 
 .landing .text .content {
-    max-width: 750px;
+    max-width: 500px;
 }
-
 
 @media (max-width: 767px) {
     .landing .text {
@@ -422,7 +413,6 @@ header nav .form i {
     .landing .text .content {
         max-width: 100%;
     }
-
 }
 
 .landing .text .content h2 {
@@ -433,7 +423,7 @@ header nav .form i {
 }
 
 .landing .text .content p {
-    font-size: 17px;
+    font-size: 14px;
     line-height: 2;
 }
 
@@ -441,14 +431,13 @@ header nav .form i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: white;
+    color: #ddd;
 }
 
 @media (max-width: 767px) {
     .landing .change-background {
         display: none;
     }
-
 }
 
 .landing .fa-angle-left {
@@ -467,43 +456,18 @@ header nav .form i {
     display: flex;
 }
 
-
 .landing .bullets li {
-    width: 15px;
-    height: 15px;
-    border: 1px solid #777;
-    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
     margin-right: 10px;
-
 }
 
 .landing .bullets li.active {
     background-color: var(--main-color);
     border-color: var(--main-color);
 }
-
-@media (max-width: 767px) {
-    .landing .text {
-        height: 70%;
-        width: 100%;
-    }
-
-    .landing .text .content p {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 375px) {
-    .landing .text {
-        height: 65%;
-        width: 100%;
-    }
-
-    .landing .text .content p {
-        font-size: 10px;
-    }
-}
-
 
 /* End Landing */
 
@@ -684,12 +648,11 @@ header nav .form i {
     }
 
     .clients .container .main-heading p {
-        font-size: 20%;
+        font-size: 20px;
     }
-
-
 }
 
+/* 
 @media(min-width: 390px) {
 
     .clients .shuffle {
@@ -704,7 +667,7 @@ header nav .form i {
         text-align: center;
         width: 100%;
     }
-}
+} */
 
 .clients .imgs-container .box img {
     max-width: 100%;
@@ -776,6 +739,23 @@ header nav .form i {
     box-shadow: none;
     transform: scale(0.98);
 }
+
+@media(max-width: 375px) {
+
+    .clients .shuffle {
+        justify-content: center;
+        text-align: center;
+        display: block;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .clients .imgs-container .box {
+        text-align: center;
+        width: 100%;
+    }
+}
+
 
 /* Ens Clients */
 /* Start Video Section */
@@ -852,6 +832,18 @@ header nav .form i {
 }
 
 @media(min-width: 390px) {
+    .video .text {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    .video .text h2 {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 375px) {
     .video .text {
         padding: 0px;
         font-size: 13px;
@@ -947,7 +939,7 @@ header nav .form i {
     border-radius: 15px;
 }
 
-@media(min-width: 390px) {
+@media(max-width: 1119px) {
     .about .container-card .card h2 {
         display: none;
     }
@@ -959,6 +951,7 @@ header nav .form i {
         font-size: 11px;
     }
 }
+
 
 /* End About Section */
 
