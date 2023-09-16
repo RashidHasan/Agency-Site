@@ -469,6 +469,28 @@ header nav .form i {
     border-color: var(--main-color);
 }
 
+@media (max-width: 375px) {
+    .landing .text {
+        height: 70%;
+        width: 100%;
+    }
+
+    .landing .text .content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .landing .text {
+        height: 65%;
+        width: 100%;
+    }
+
+    .landing .text .content p {
+        font-size: 10px;
+    }
+}
+
 /* End Landing */
 
 /* Start Services */
@@ -939,7 +961,7 @@ header nav .form i {
     border-radius: 15px;
 }
 
-@media(max-width: 1119px) {
+@media(max-width: 768px) {
     .about .container-card .card h2 {
         display: none;
     }
@@ -949,6 +971,16 @@ header nav .form i {
         text-transform: uppercase;
         line-height: 2;
         font-size: 11px;
+    }
+
+    .about .container-card .card::before {
+        content: '';
+        position: absolute;
+        width: 160px;
+        background-image: linear-gradient(180deg, rgb(158, 236, 255), var(--transparent-color));
+        height: 160%;
+        animation: rotBGimg 3s linear infinite;
+        transition: all 0.2s linear;
     }
 }
 
