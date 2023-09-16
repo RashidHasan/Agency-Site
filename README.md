@@ -3,7 +3,7 @@
 ## Project Overview
 
 This HTML and CSS project is a responsive website design that has been created with the aim of showcasing the skills and expertise in web development. The project incorporates modern web design principles, responsive techniques, and a clean, user-friendly interface.
-Project Features
+## Project Features
 
 The website is designed using HTML and CSS for a responsive layout that adapts to various screen sizes. 
 It features a stylish and intuitive UI/UX with modern typography, attractive color schemes, and intuitive navigation. Multiple content sections are designed to present information, including a home page, About Us, Services, Portfolio, and Contact Us. 
