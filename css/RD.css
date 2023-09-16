@@ -993,7 +993,7 @@ header nav .form i {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     text-align: center;
-    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-image: url("../Images/picBackground.jpg");
     background-size: cover;
     position: relative;
 }
@@ -1382,7 +1382,7 @@ header nav .form i {
 .subscribe {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url("../images/444wallpaper.jpg");
+    background-image: url("../Images/Ewallpaper.jpg");
     background-size: cover;
     position: relative;
     color: white;
@@ -1599,7 +1599,7 @@ header nav .form i {
 .footer {
     padding-top: calc(var(--section-padding) / 2);
     padding-bottom: calc(var(--section-padding) / 2);
-    background-image: url("../images/444wallpaper.jpg");
+    background-image: url("../Images/Ewallpaper.jpg");
     background-size: cover;
     position: relative;
     color: white;
